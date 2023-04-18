@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,21 +11,97 @@
     <title>Projeto Final</title>
 </head>
 <body>
-    <div id="menu">
-    <ul>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#portfolio">Portfólio</a></li>
-        <li><a href="#contatos">Contatos</a></li>
-    </ul>
-    </div>
-    <div id="perfil">
-
-    </div>
-    <div id="formacao">
-
-    </div>
-    <div id="contato">
-
-    </div>
+    <header class="cabecalho"> 
+        <nav class="cabecalho-menu">
+            <ul class="cabecalho-menu-itens">
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>   
+    </header>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-perfil">
+                <img class="conteudo-principal-perfil-foto" src="./assets/foto-perfil.png"/>
+                <h1 class="conteudo-principal-titulo">Rebeca Beatriz de Luna</h1>
+                <p class="conteudo-principal-subtitulo"> <strong>Iniciante em Desenvolvimento Back-End</strong></p>
+            </div>
+        </section>
+        <section class="conteudo-secundario">
+            <div id="formacao">
+                <ul class="conteudo-secundario-formacao">
+                    <h2 class="conteudo-secundario-formacao-titulo">Formação</h2>
+                    <section class="conteudo-secundario-section1">
+                        <li class="conteudo-secundario-formacao-subtitulo"><strong>Análise e Desenvolvimento de Sistemas - IFPE</strong></li>
+                        <p class="conteudo-secundario-formacao-texto">
+                        Ainda no primeiro período, tenho visto conceitos básicos sobre a computação, programação, lógica e matemática.
+                        Após a conclusão do curso estarei habilitada para elaborar projetos tecnológicos,
+                        realizar manutenção de produtos de softwares, implementar programas e entre outras atribuições. 
+                        </p>
+                    </section>
+                    <section class="conteudo-secundario-section2">
+                        <li class="conteudo-secundario-formacao-subtitulo"><strong>Desenvolvimento Back-End - SENAI-SP</strong></li>
+                        <p class="conteudo-secundario-formacao-texto">
+                        Neste curso, estou aprendendo sobre as ferramentas mais utilizadas durante o processo de desenvolvimento Back-End,
+                        além de outras que contribuem para boas práticas de programação. 
+                        </p>
+                    </section>
+                    <section class="conteudo-secundario-section3">
+                        <li class="conteudo-secundario-formacao-subtitulo"><strong>JavaScript | HTML5 | CSS3 - PretaLab</strong></li>
+                        <p class="conteudo-secundario-formacao-texto">
+                        PretaLab, um Bootcamp realizado com a parceria entre o Olabi e a Disney, tem como objetivo fornecer uma formação em 
+                        conceitos inicias sobre programação, além de soft Skills, para mulheres (cis e trans) negras, que tenham interesse de seguir carreira 
+                        na área da tecnologia. Durante o ciclo formativo, aprendi sobre a utilização do Git e GitHub, Netlify, JavaScript, HTML5 e CSS3.
+                        </p>
+                    </section>
+                   <section class="conteudo-secundario-section4">
+                    <li class="conteudo-secundario-formacao-subtitulo"><strong>Redes de Computadores - ETEMB</strong></li>
+                    <p class="conteudo-secundario-formacao-texto">
+                    Curso médio-técnico que teve duração de três anos. Neste, aprendi sobre os várioas conceitos e aplicações da Rede Mundial de Computadores,
+                    bem como a manutenção e segurança de redes, e aplicação de uma rede doméstica.  
+                    </p>
+                   </section>
+                    
+                </ul>
+            </div>
+        </section>
+        <section class="conteudo-terciario">
+            <div id="portfolio">
+                <ul>
+                    <h2 class="conteudo-terciario-titulo">Portfólio</h2>
+                    <li class="conteudo-terciario-subtitulo"><strong>Calculadora Simples e Calculadora de Média</strong></li>
+                    <a class="conteudo-terciario-link" href="https://rebecabeatrizdeluna-pretalabdisney.netlify.app/" target="_blank">Calculadora</a>
+                    </a>
+                    <p class="conteudo-terciario-texto"> 
+                     Realizado durante o ciclo formativo do PretaLab, esse projeto consiste numa aplicação das operações básicas 
+                     de matemática para obtenção de um resultado, ou média. Desenvolvi esse projeto utilizando as seguintes tecnologias: 
+                     JavaScript, Visual Studio Code, Netlify e GitHub.  
+                    </p>
+                </ul>
+            </div>
+        </section>  
+    </main>
+    
+    <footers class="contatos">
+        <div id="Contatos">
+            <section class="contatos-pessoais">
+                <h2 class="contatos-pessoais-titulo">Contatos</h2>
+                <a href="https://github.com/rebecabeatrizdeluna" target="_blank">
+                <button class="botao-contatos" ><img src="./assets/003-github.png"/></button>
+                </a>
+    
+                <a href="https://www.linkedin.com/in/rebeca-beatriz-de-luna-693b48259/" target="_blank">
+                <button class="botao-contatos" ><img src="./assets/002-linkedin.png"/></button>
+                </a>
+    
+                <a href="mailto:rebecabealuna@gmail.com" target="_blank">
+                <button class="botao-contatos" ><img src="./assets/001-email.png"/></button>
+                </a>
+            </section>
+               
+        </div>
+    </footers>
+    
 </body>
 </html>
