@@ -6,7 +6,7 @@ O Projeto Final foi desenvolvido com base nos conhecimentos adquiridos durante o
 Neste Módulo, aprendemos sobre a utilização das tags em HTML, bem como sua estilização por meio do CSS.
 
 Protótipo do Projeto Final:
-- (Link)
+- https://www.figma.com/file/dykEV9jRKyK7K83CQ74zfP/Portfolio-Ciclo-Formativo-II---M%C3%B3dulo-I?t=vZxANnWifTbvcvLN-0
 
 ## Ferramentas usadas:
 - Visual Studio Code (como ambiente de desenvolvimento);
@@ -14,6 +14,6 @@ Protótipo do Projeto Final:
 - Netlify (para realizar o Deploy da aplicação).
 
 ## Como ter acesso ao meu projeto:
- - (Link)
+ - https://rebecabealuna-projetofinal-html-css.netlify.app
 
 <br>
